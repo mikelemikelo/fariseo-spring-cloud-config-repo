@@ -1,0 +1,18 @@
+# Notification Service default properties
+## Default profile
+spring:
+  mail:
+    default-encoding: UTF-8
+    host: smtp.gmail.com
+    username: mikelemikelo@gmail.com
+    password: CHANGE_PASSWORD
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    protocol: smtp
+    test-connection: true
+
